@@ -1,0 +1,9 @@
+FROM python:3.10-slim
+
+WORKDIR /app
+
+COPY predictor_client.py predictor_client.py
+
+RUN pip install requests
+
+CMD ["python", "predictor_client.py"]
