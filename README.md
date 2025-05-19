@@ -46,7 +46,7 @@ Optimized for cost awareness and real-time performance
 
 📂 Project Structure
 
-fleet-monitoring-system/
+<pre><code>fleet-monitoring-system/
 ├── cloud-function/
 │   ├── main.py
 │   ├── requirements.txt
@@ -64,7 +64,9 @@ fleet-monitoring-system/
 │   ├── fleet-monitoring-project-report.pdf
 │
 ├── README.md
-└── LICENSE (optional)
+└── LICENSE
+</code></pre>
+
 
 🧠 How It Works
 Data Simulation: Kubernetes deployment continuously generates synthetic telemetry data.
